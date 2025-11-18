@@ -2,7 +2,7 @@
 # ubuntu-24.04-secure.sh
 # Simple baseline hardening for Ubuntu 24.04
 # Run as root: sudo ./ubuntu-24.04-secure.sh
-
+#All of the comands and commentes below were created by ChatGTP
 set -euo pipefail
 
 # ---------- Configuration (edit if needed) ----------
@@ -106,3 +106,4 @@ echo "- unattended-upgrades: $(systemctl is-enabled unattended-upgrades 2>/dev/n
 echo "- ufw status: $(ufw status verbose | sed -n '1,3p')"
 echo "- fail2ban status: $(systemctl is-active fail2ban 2>/dev/null || echo inactive)"
 echo "Tip: check /var/log/auth.log for SSH attempts and /var/log/fail2ban.log (if present)."
+
