@@ -1,7 +1,7 @@
 #!/bin/bash
 # CentOS 10 Security Hardening Script
 # Run as root: sudo bash security_hardening.sh
-
+#All the comments and commands below were created by ClaudeAI I am not taking any credit for this
 set -e
 
 echo "=== CentOS 10 Security Hardening ==="
